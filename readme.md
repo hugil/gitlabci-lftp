@@ -1,6 +1,9 @@
 # Deploy from Gitlab using LFTP
 
-Using FTP programs to add every change in your repository is not only  annoying but also time-very consuming. Fortunately, there's way to automate this flow with Gitlab Pipelines.
+Using FTP programs to add every change in your repository is not only annoying but also time-very consuming. 
+Fortunately, there's way to automate this flow with Gitlab Pipelines.
+
+**Place the [.gitlab-ci.yml](https://github.com/hugil/lftp-gitlabci/blob/master/.gitlab-ci.yml ".gitlab-ci.yml") in your Gitlab project's repository and configure the Pipeline. Customize the script as you wish to create a powerful automated deployment to wherever your like!**
 
 It allows you to  build, test and deploy committed code without any effort.
 
